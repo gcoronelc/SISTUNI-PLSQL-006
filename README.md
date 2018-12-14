@@ -1,4 +1,4 @@
-![ORACLE PL-SQL](https://raw.githubusercontent.com/gcoronelc/SISTUNI-PLSQL-006/master/img/plsql-06.jpg)
+![ORACLE PL-SQL](https://raw.githubusercontent.com/gcoronelc/SISTUNI-PLSQL-006/master/img/plsql-06B.jpg)
 
 
 # ORACLE PL-SQL
