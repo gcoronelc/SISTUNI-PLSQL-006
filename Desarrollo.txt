@@ -1,0 +1,14 @@
+CLASE 01: 16.DIC.2018
+------------------------------------
+1.- Introducción
+2.- Git y GitHub
+3.- Introduccion a Oracle
+4.- Herramientas de Trabajo
+5.- Esquemas de Trabajo: 
+    SCOTT, EDUCA, EUREKA, RECURSOS, VENTAS
+6.- Introducción a la Programación con PLSQL
+7.- 
+
+
+
+

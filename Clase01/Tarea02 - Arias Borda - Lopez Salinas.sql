@@ -1,0 +1,48 @@
+CREATE OR REPLACE PROCEDURE EUREKA.PR_RESUMEN_SOLES
+
+AS
+
+	v_cuentas NUMBER;
+	v_saldo NUMBER;
+
+BEGIN
+
+	SELECT COUNT(1), SUM(dec_cuensaldo)
+	INTO v_cuentas, v_saldo
+	FROM EUREKA.Cuenta
+	WHERE CHR_MONECODIGO = '01';
+
+	DBMS_OUTPUT.PUT_LINE('CUENTAS:_ '|| v_cuentas);
+	DBMS_OUTPUT.PUT_LINE('SALDO:_ '|| v_saldo);
+
+END;
+/
+
+BEGIN 
+	EUREKA.PR_RESUMEN_SOLES();
+END;
+
+
+CREATE OR REPLACE PROCEDURE EUREKA.PR_RESUMEN_DOLARES
+
+AS
+
+	v_cuentas NUMBER;
+	v_saldo NUMBER;
+
+BEGIN
+
+	SELECT COUNT(1), SUM(dec_cuensaldo)
+	INTO v_cuentas, v_saldo
+	FROM EUREKA.Cuenta
+	WHERE CHR_MONECODIGO = '02';
+
+	DBMS_OUTPUT.PUT_LINE('CUENTAS:_ '|| v_cuentas);
+	DBMS_OUTPUT.PUT_LINE('SALDO:_ '|| v_saldo);
+
+END;
+/
+
+BEGIN 
+	EUREKA.PR_RESUMEN_DOLARES();
+END;
