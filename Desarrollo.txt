@@ -7,8 +7,11 @@ CLASE 01: 16.DIC.2018
 5.- Esquemas de Trabajo: 
     SCOTT, EDUCA, EUREKA, RECURSOS, VENTAS
 6.- Introducción a la Programación con PLSQL
-7.- 
+7.- Estructura IF
 
+CLASE 02: 23.DIC.2018
+------------------------------------
+1.- 
 
 
 

@@ -162,6 +162,15 @@ END;
 
 
 
+-- Tarea 08
+/*
+ESQUEMA: RECURSOS
+Hacer un procedimiento para actualizar el sueldo 
+de un empleado, se le pasa en incremento.
+Pero el nuevo salario no puede ser mayor que el 
+maximo según su cargo, en este caso debe
+generar una excepción o mostrar un mensaje.
+*/
 
 
 
