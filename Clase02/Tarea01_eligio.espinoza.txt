@@ -1,0 +1,19 @@
+CREATE OR REPLACE FUNCTION SCOTT.fn106 (v_empno emp.EMPNO%type) RETURN VARCHAR2 
+IS
+	v_msg VARCHAR2(50);
+	v_sal emp.SAL%TYPE;
+BEGIN
+	 SELECT SAL INTO v_sal FROM EMP WHERE EMPNO = v_empno;
+	 CASE
+	 	WHEN (v_sal > 0 AND v_sal <= 2500) THEN
+	 		v_msg := 'salario bajo';
+	 	WHEN (v_sal > 2500 AND v_sal <= 4000) THEN
+	 		v_msg := 'salario regular';
+	 	WHEN (v_sal > 4000 ) THEN
+	 		v_msg := 'salario bueno';
+	 	ELSE
+	 		v_msg := 'caso desconocido';
+	 END CASE;
+	 v_msg := to_char(v_sal) || '-' || v_msg;
+	 RETURN v_msg;
+END;

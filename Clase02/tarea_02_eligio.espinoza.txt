@@ -1,0 +1,15 @@
+CREATE OR REPLACE FUNCTION scott.fn_suma_cua
+(p_nume IN number) RETURN NUMBER
+IS
+	v_suma NUMBER := 0;
+	v_num NUMBER := p_nume;
+BEGIN
+	WHILE (v_num != 0) LOOP
+	v_suma := v_suma + v_num*v_num;
+	v_num := v_num - 1;
+   
+	END LOOP;
+	RETURN v_suma;
+END;
+-----prueba----------
+SELECT fn_suma_cua(4) FROM DUAL;
