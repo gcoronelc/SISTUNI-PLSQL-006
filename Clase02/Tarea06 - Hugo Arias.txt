@@ -1,0 +1,21 @@
+create or replace procedure 
+scott.FindEmp( Cod Emp.EmpNo%Type )
+is
+  Salario Emp.Sal%Type;
+Begin
+  Select Sal Into Salario
+  From scott.Emp
+  Where EmpNo = Cod;
+  DBMS_Output.Put_Line( 'Salario: ' || Salario );
+Exception
+  When No_Data_Found Then
+    DBMS_Output.Put_Line( 'Código no existe.' );
+End;
+
+BEGIN
+	FindEmp( 9999 );
+END;
+
+BEGIN
+  FindEmp( 7499 );
+END;

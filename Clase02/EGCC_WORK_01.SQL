@@ -53,4 +53,29 @@ enteros positivos.
 */
 
 
+-- for
+
+BEGIN
+  FOR n IN  1 .. 10 LOOP
+    dbms_output.PUT_LINE(N || '.- FELIZ NAVIDAD CON ORACLE PL/SQL');
+  END LOOP;
+END;
+
+
+-- TAREA 3 (FOR o WHILE)
+/*
+Desarrollar una funcion para encontrar el
+MCD de dos números enteros.
+*/
+
+
+-- TAREA 4 (FOR)
+/*
+Desarrollar una funcion para encontrar el
+factorial de un número entero positivo.
+*/
+
+
+
+
 

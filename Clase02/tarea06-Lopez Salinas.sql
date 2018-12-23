@@ -1,0 +1,19 @@
+
+CREATE OR REPLACE PROCEDURE SCOTT.FindEmp(cod emp.EMPNO%type)
+IS
+	salario emp.SAL%TYPE;
+BEGIN
+	SELECT SAL INTO salario	
+		FROM EMP
+		WHERE EMPNO = cod;
+	dbms_output.PUT_LINE('salario: ' || salario);
+EXCEPTION 
+	WHEN NO_DATA_FOUND THEN
+		dbms_output.PUT_LINE('CODIGO NO EXISTE');
+END;
+
+
+--PRUEBA
+BEGIN
+	FINDEMP(70);
+END;

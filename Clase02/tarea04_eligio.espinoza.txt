@@ -1,0 +1,11 @@
+CREATE OR REPLACE FUNCTION fn108 (p_n number) RETURN NUMBER
+IS
+	f NUMBER := 1;
+BEGIN 
+	FOR k IN 1..p_n LOOP 
+		f := f*k;
+	END LOOP;
+	RETURN f;
+END;
+---prueba---
+SELECT fn108(5) FROM DUAL;
