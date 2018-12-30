@@ -17,6 +17,7 @@
 
 - Docente: Eric Gustavo Coronel Castillo
 - Blog: www.desarrollasoftware.com
+- Canal Youtube: https://bit.ly/2BWvikz
 - Correo: gcoronelc@gmail.com
 
 # LIBROS
