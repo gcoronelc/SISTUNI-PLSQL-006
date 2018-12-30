@@ -11,7 +11,16 @@ CLASE 01: 16.DIC.2018
 
 CLASE 02: 23.DIC.2018
 ------------------------------------
-1.- 
+1.- Estructuras de control
+2.- Registros
+3.- Excepciones
+4.- Transacciones
+
+CLASE 03: 30.DIC.2018
+------------------------------------
+
+
+
 
 
 
