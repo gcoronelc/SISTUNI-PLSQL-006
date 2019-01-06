@@ -24,9 +24,12 @@ CLASE 03: 30.DIC.2018
 4.- Paquetes
 5.- Procesamiento de varias filas
 
-
-
-
+Clase 04: 06.ENE.2019
+------------------------------------
+1.- Desencadenantes
+2.- Colecciones
+3.- Retorno de cursores
+4.- Proyectos
 
 
 
