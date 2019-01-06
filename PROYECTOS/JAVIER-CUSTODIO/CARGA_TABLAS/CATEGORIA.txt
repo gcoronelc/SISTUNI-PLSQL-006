@@ -1,0 +1,11 @@
+IDCATEGORIA|NOMBRE|DESCRIPCION|FECHA_CREACION|OBSERVACION|ESTADO
+CAT_SECUENCIA.NEXTVAL|ABARROTES|Artículos comerciales, principalmente comestibles, de uso cotidiano y venta ordinaria.|to_date(sysdate, 'dd mm rrrr hh12:mi:ss')|NO HAY|ACTIVO
+CAT_SECUENCIA.NEXTVAL|CARNES Y AVES|Comestible de vaca, ternera, cerdo, carnero, etc., y muy señaladamente la que se vende para el abasto común del pueblo. Aves tambien ya sea pollo, gallijna, etc|to_date(sysdate, 'dd mm rrrr hh12:mi:ss')|NO HAY|ACTIVO
+CAT_SECUENCIA.NEXTVAL|BEBIDAS|Líquido que se bebe.|to_date(sysdate, 'dd mm rrrr hh12:mi:ss')|NO HAY|ACTIVO
+CAT_SECUENCIA.NEXTVAL|VINOS Y LICORES|TODO TIPO DE LICORES INCLUIDO VINO|to_date(sysdate, 'dd mm rrrr hh12:mi:ss')|NO HAY|ACTIVO
+CAT_SECUENCIA.NEXTVAL|LACTEOS|Dicho de un producto alimenticio: Derivado de la leche.|to_date(sysdate, 'dd mm rrrr hh12:mi:ss')|NO HAY|ACTIVO
+CAT_SECUENCIA.NEXTVAL|FRUTAS Y VERDURAS|Fruto comestible de ciertas plantas cultivadas Y VERDURAS; p. ej., la pera, la guinda, la fresa, etc|to_date(sysdate, 'dd mm rrrr hh12:mi:ss')|NO HAY|ACTIVO
+CAT_SECUENCIA.NEXTVAL|LIMPIEZA|TODO TIPO DE MATERIAL PARA LIMPIEZA HOGAR|to_date(sysdate, 'dd mm rrrr hh12:mi:ss')|NO HAY|ACTIVO
+CAT_SECUENCIA.NEXTVAL|HIGIENE, SALUD Y BELLEZA|Articulos relaciones al higiene de las personas|to_date(sysdate, 'dd mm rrrr hh12:mi:ss')|NO HAY|ACTIVO
+CAT_SECUENCIA.NEXTVAL|HELADOS|Alimento dulce, hecho generalmente con leche o zumo de frutas, que se consume en cierto grado de congelación.|to_date(sysdate, 'dd mm rrrr hh12:mi:ss')|NO HAY|ACTIVO
+CAT_SECUENCIA.NEXTVAL|OTROS|SIN CATEGORIA|to_date(sysdate, 'dd mm rrrr hh12:mi:ss')|NO HAY|ACTIVO

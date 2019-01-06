@@ -1,0 +1,14 @@
+EXAMEN
+=========================
+
+Presentar una caso
+
+- Explicar el caso (6 tablas)
+- Modelar el caso 
+- Generar el script
+- Script de carga de datos
+- Programar un Paquete a un CRUD
+- Programar un proceso simple
+- Consulta de resumen de datos (2 consultas)
+- Proceso complejo. Procesar varias filas.
+  Ejemplo: factura con varios items, esquema: VENTAS.
